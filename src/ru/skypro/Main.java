@@ -57,7 +57,7 @@ public class Main {
         }
 
         System.out.println("");
-        System.out.print(myChoice[4]);
+        System.out.print(myChoice[myChoice.length - 1]);
         for (int i = myChoice.length - 2; i >= 0; i--) {
             System.out.print(", " + myChoice[i]);
         }
